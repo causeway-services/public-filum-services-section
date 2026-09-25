@@ -1,0 +1,27 @@
+{
+  "name": "@red-cup-engineering/filum-561-group",
+  "version": "0.0.1",
+  "type": "module",
+  "keywords": [
+    "decommissioned",
+    "triage"
+  ],
+  "description": "filum.561.group — the 561 group's newswires: one cable, one process, every wire under /newswires/<name>/.",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "serve": "node src/serve.mjs",
+    "ingest": "node src/ingest.mjs",
+    "assert": "node src/producers/arithmomantia.mjs && node src/producers/astrologia.mjs && node src/producers/cartomantia.mjs && node src/producers/lectio.mjs && node src/producers/rete-agentium.mjs"
+  },
+  "dependencies": {
+    "@causeway-services/koios-news-service-section": "0.0.7",
+    "@lenticule-science/divining": "0.4.2",
+    "@red-cup-engineering/computer-web-server": "0.6.0",
+    "@red-cup-engineering/http-services-section": "0.6.0",
+    "@red-cup-engineering/web-theming-service": "0.0.4"
+  },
+  "sideEffects": false
+}
