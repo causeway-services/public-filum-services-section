@@ -2,7 +2,7 @@
 import process from "node:process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { ingestCableFromConfig } from "@causeway-services/koios-news-service-section/src/news/newscable.mjs";
+import { ingestCableFromConfig } from "@causeway-services/koios-news-service-section/news/newscable";
 const configPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "newscable.config.json");
 const onSkip = (message)=>{
     process.stderr.write(`${message}\n`);

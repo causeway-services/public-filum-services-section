@@ -2,7 +2,7 @@
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { lectionFor, rclYear, romanDay } from "@lenticule-science/divining/liturgy";
-import { assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news-service-section/src/news/newswire.mjs";
+import { assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news-service-section/news/newswire";
 const WIRE = "lectio";
 const WITNESS = "liturgy-topology";
 const STORE = fileURLToPath(new URL("../../store/lectio/", import.meta.url));
