@@ -11,28 +11,28 @@
         "name": "arithmomantia",
         "title": "Arithmomantia",
         "description": "The date's numerological reduction with its whole orbit — the steps are part of the reading, not just the answer.",
-        "author": "emsenn",
+        "author": "561 Group",
         "keyword": "numerology"
       },
       {
         "name": "astrologia",
         "title": "Astrologia",
         "description": "Daily charts and sky events — ingresses, stations, lunation quarters — computed by the astrology-topology ephemeris with stated accuracy.",
-        "author": "emsenn",
+        "author": "561 Group",
         "keyword": "astrology"
       },
       {
         "name": "cartomantia",
         "title": "Cartomantia",
         "description": "The daily single-card tarot draw, drawn deterministically from a dated seed so every draw is a checkable claim.",
-        "author": "emsenn",
+        "author": "561 Group",
         "keyword": "tarot"
       },
       {
         "name": "lectio",
         "title": "Lectio",
         "description": "The liturgical day and the appointed Revised Common Lectionary readings, with honest absence when no entry is recorded.",
-        "author": "emsenn",
+        "author": "561 Group",
         "keyword": "lectionary"
       },
       {
