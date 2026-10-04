@@ -1,0 +1,628 @@
+{
+  "subject": "kxrain-26oct03-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Where will it rain on Oct 3, 2026? What Kalshi's odds say"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price Miami at 32%, Austin at 19%, and Houston at 86% on \"Where will it rain on Oct 3, 2026\". The market closes in about 9 hours and settles on The Weather Company. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 30 outcomes and 454 thousand contracts traded in the last 24 hours.\n\n- **New York City**: 1% (bid 0 cents, ask 1 cents; 52 thousand contracts in 24 hours)\n- **Miami**: 32% (bid 31 cents, ask 33 cents; 49 thousand contracts in 24 hours)\n- **Oklahoma City**: 2% (bid 1 cents, ask 2 cents; 35 thousand contracts in 24 hours)\n- **San Antonio**: 13% (bid 12 cents, ask 14 cents; 30 thousand contracts in 24 hours)\n- **Austin**: 19% (bid 17 cents, ask 20 cents; 28 thousand contracts in 24 hours)\n- **Atlanta**: 100% (bid 99 cents, ask 100 cents; 25 thousand contracts in 24 hours)\n- **College Station**: 95% (bid 93 cents, ask 96 cents; 23 thousand contracts in 24 hours)\n- **Philadelphia**: 3% (bid 1 cents, ask 4 cents; 23 thousand contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. For calibration: in our sample of settled Climate and Weather markets, the Kalshi mid-price a day before close scored a Brier error of 0.0879 (a coin-flip price scores 0.25; lower is better).\n\n## How does this market resolve?\n\n> If the total precipitation at CLINYC in New York City in Oct 3, 2026 is strictly greater than 0 inches, then the market resolves to Yes.\n\nClose: October 4, 2026 at 05:00 UTC. Expected settlement: October 5, 2026 at 03:59 UTC. Settlement source: [The Weather Company](https://weather.com/kalshi). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/RAINGLOBALPERIOD.pdf).\n\n## What could move the odds?\n\n- A new National Blend of Models or National Weather Service forecast run, issued hourly.\n- For a same-day high, the maximum already observed at the station (the day's high cannot settle below it); for a low, the minimum so far.\n- A correction or late revision to the NWS Daily Climate Report that settles the market.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 359 settled Climate and Weather markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 24 hours before close had a Brier error of 0.0879; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 1.8% of the time (109 markets); contracts quoted at 95 cents or more settled YES 100.0% (5 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"Where will it rain on Oct 3, 2026\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies Miami at 32%, Austin at 19%, and Houston at 86%. These move with every trade; the live market is at https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 4, 2026 at 05:00 UTC and is expected to settle October 5, 2026 at 03:59 UTC, in about 9 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names The Weather Company (https://weather.com/kalshi) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/RAINGLOBALPERIOD.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"Where will it rain on Oct 3, 2026\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies Miami at 32%, Austin at 19%, and Houston at 86%. These move with every trade; the live market is at https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 4, 2026 at 05:00 UTC and is expected to settle October 5, 2026 at 03:59 UTC, in about 9 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names The Weather Company (https://weather.com/kalshi) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/RAINGLOBALPERIOD.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXRAIN-26OCT03",
+          "markets": [
+            {
+              "ticker": "KXRAIN-26OCT03-NYC",
+              "label": "New York City",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 51524.79
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-MIA",
+              "label": "Miami",
+              "yesBidCents": 31,
+              "yesAskCents": 33,
+              "impliedYes": 0.32,
+              "impliedYesNormalized": null,
+              "volume24h": 49239.35
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-OKC",
+              "label": "Oklahoma City",
+              "yesBidCents": 1,
+              "yesAskCents": 2,
+              "impliedYes": 0.015,
+              "impliedYesNormalized": null,
+              "volume24h": 34877.96
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-SATX",
+              "label": "San Antonio",
+              "yesBidCents": 12,
+              "yesAskCents": 14,
+              "impliedYes": 0.13,
+              "impliedYesNormalized": null,
+              "volume24h": 29682.35
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-AUS",
+              "label": "Austin",
+              "yesBidCents": 17,
+              "yesAskCents": 20,
+              "impliedYes": 0.185,
+              "impliedYesNormalized": null,
+              "volume24h": 27847.25
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-ATL",
+              "label": "Atlanta",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 25409.97
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-CLL",
+              "label": "College Station",
+              "yesBidCents": 93,
+              "yesAskCents": 96,
+              "impliedYes": 0.945,
+              "impliedYesNormalized": null,
+              "volume24h": 23256.14
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-PHIL",
+              "label": "Philadelphia",
+              "yesBidCents": 1,
+              "yesAskCents": 4,
+              "impliedYes": 0.025,
+              "impliedYesNormalized": null,
+              "volume24h": 23042.93
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-PVD",
+              "label": "Providence",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 22950.64
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-MIN",
+              "label": "Minneapolis",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 21787.31
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-HOU",
+              "label": "Houston",
+              "yesBidCents": 84,
+              "yesAskCents": 88,
+              "impliedYes": 0.86,
+              "impliedYesNormalized": null,
+              "volume24h": 17070.62
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-EWR",
+              "label": "Newark",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 16435.7
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-TTN",
+              "label": "Trenton",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 14797.95
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-BOS",
+              "label": "Boston",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 11290.72
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-NOLA",
+              "label": "New Orleans",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 10215.14
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-DAL",
+              "label": "Dallas",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 10088.25
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-SEA",
+              "label": "Seattle",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 9081.57
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-CHI",
+              "label": "Chicago",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 7813.18
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-LEX",
+              "label": "Lexington",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 7048.63
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-MKE",
+              "label": "Milwaukee",
+              "yesBidCents": 3,
+              "yesAskCents": 4,
+              "impliedYes": 0.035,
+              "impliedYesNormalized": null,
+              "volume24h": 6832.88
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-DC",
+              "label": "Washington DC",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 5857.01
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-DEN",
+              "label": "Denver",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 5323.74
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-SGF",
+              "label": "Springfield",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 4664.27
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-ABQ",
+              "label": "Albuquerque",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 4401.25
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-SFO",
+              "label": "San Francisco",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 4074.4
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-CMH",
+              "label": "Columbus",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 3166.17
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-PIT",
+              "label": "Pittsburgh",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 2683.1
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-LV",
+              "label": "Las Vegas",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 1263.37
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-LAX",
+              "label": "Los Angeles",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 1113.43
+            },
+            {
+              "ticker": "KXRAIN-26OCT03-PHX",
+              "label": "Phoenix",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": null,
+              "volume24h": 831.84
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXRAIN-26OCT03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If the total precipitation at CLINYC in New York City in Oct 3, 2026 is strictly greater than 0 inches, then the market resolves to Yes.",
+          "secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market as reported by the Weather Company.\n\nReading weather data\nData for CLINYC can be found at https://weather.com/kalshi.\n“Trace” amounts (T) and missing daily precipitation values are counted as 0 inches. ",
+          "closesAt": "2026-10-04T05:00:00.000Z",
+          "expectedSettleAt": "2026-10-05T03:59:59.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/RAINGLOBALPERIOD.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "The Weather Company",
+          "url": "https://weather.com/kalshi"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://weather.com/kalshi"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxrain/where-will-it-rain-daily/kxrain-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxrain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Climate and Weather",
+            "horizonHours": 24,
+            "markets": 359,
+            "brierOfMid": 0.0879,
+            "longshot": {
+              "n": 109,
+              "yesCount": 2,
+              "yesRate": 0.0183,
+              "yesRate95": [
+                0.005,
+                0.0644
+              ],
+              "avgYesAsk": 0.0293
+            },
+            "favorite": {
+              "n": 5,
+              "yesCount": 5,
+              "yesRate": 1,
+              "yesRate95": [
+                0.5655,
+                1
+              ],
+              "avgYesAsk": 0.968
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXRAIN-26OCT03@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}

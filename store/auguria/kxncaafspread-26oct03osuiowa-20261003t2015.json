@@ -1,0 +1,637 @@
+{
+  "subject": "kxncaafspread-26oct03osuiowa-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What are the Kalshi odds on \"Ohio St. vs Iowa: Spread (OSU vs IOWA (Oct 3))\"?"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price Ohio St. wins by over 16.5 points at 53%, Ohio St. wins by over 14.5 points at 54%, and Ohio St. wins by over 17.5 points at 41% on \"Ohio St. vs Iowa: Spread\". The market closes in about 2 hours and settles on ESPN. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 31 outcomes and 2.5 million contracts traded in the last 24 hours.\n\n- **Ohio St. wins by over 14.5 points**: 54% (bid 51 cents, ask 56 cents; 1.0 million contracts in 24 hours)\n- **Ohio St. wins by over 13.5 points**: 62% (bid 60 cents, ask 64 cents; 816 thousand contracts in 24 hours)\n- **Ohio St. wins by over 20.5 points**: 40% (bid 35 cents, ask 44 cents; 106 thousand contracts in 24 hours)\n- **Ohio St. wins by over 16.5 points**: 53% (bid 52 cents, ask 53 cents; 98 thousand contracts in 24 hours)\n- **Ohio St. wins by over 17.5 points**: 41% (bid 39 cents, ask 43 cents; 75 thousand contracts in 24 hours)\n- **Ohio St. wins by over 21.5 points**: 34% (bid 31 cents, ask 37 cents; 62 thousand contracts in 24 hours)\n- **Ohio St. wins by over 11.5 points**: 68% (bid 65 cents, ask 70 cents; 62 thousand contracts in 24 hours)\n- **Ohio St. wins by over 9.5 points**: 70% (bid 65 cents, ask 75 cents; 50 thousand contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. For calibration: in our sample of settled Sports markets, the Kalshi mid-price a day before close scored a Brier error of 0.1789 (a coin-flip price scores 0.25; lower is better).\n\n## How does this market resolve?\n\n> If Ohio St. wins by more than 35.5 points in the Ohio St. vs Iowa college football game originally scheduled for Oct 3, 2026, then the market resolves to Yes.\n\nClose: October 5, 2026 at 19:30 UTC. Expected settlement: October 3, 2026 at 22:30 UTC. Settlement source: [ESPN](https://www.espn.com). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf).\n\n## What could move the odds?\n\n- Lineup and injury news, and the live game state once play starts.\n- Postponement or cancellation under the rules' fair-price clause.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 1,013 settled Sports markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 6 hours before close had a Brier error of 0.1789; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 2.1% of the time (47 markets); contracts quoted at 95 cents or more settled YES 100.0% (20 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"Ohio St. vs Iowa: Spread\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies Ohio St. wins by over 16.5 points at 53%, Ohio St. wins by over 14.5 points at 54%, and Ohio St. wins by over 17.5 points at 41%. These move with every trade; the live market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 5, 2026 at 19:30 UTC and is expected to settle October 3, 2026 at 22:30 UTC, in about 2 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names ESPN (https://www.espn.com) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"Ohio St. vs Iowa: Spread\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies Ohio St. wins by over 16.5 points at 53%, Ohio St. wins by over 14.5 points at 54%, and Ohio St. wins by over 17.5 points at 41%. These move with every trade; the live market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 5, 2026 at 19:30 UTC and is expected to settle October 3, 2026 at 22:30 UTC, in about 2 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names ESPN (https://www.espn.com) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXNCAAFSPREAD-26OCT03OSUIOWA",
+          "markets": [
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU15",
+              "label": "Ohio St. wins by over 14.5 points",
+              "yesBidCents": 51,
+              "yesAskCents": 56,
+              "impliedYes": 0.535,
+              "impliedYesNormalized": null,
+              "volume24h": 1011508.93
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU14",
+              "label": "Ohio St. wins by over 13.5 points",
+              "yesBidCents": 60,
+              "yesAskCents": 64,
+              "impliedYes": 0.62,
+              "impliedYesNormalized": null,
+              "volume24h": 815733.32
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU21",
+              "label": "Ohio St. wins by over 20.5 points",
+              "yesBidCents": 35,
+              "yesAskCents": 44,
+              "impliedYes": 0.395,
+              "impliedYesNormalized": null,
+              "volume24h": 105991.62
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU17",
+              "label": "Ohio St. wins by over 16.5 points",
+              "yesBidCents": 52,
+              "yesAskCents": 53,
+              "impliedYes": 0.525,
+              "impliedYesNormalized": null,
+              "volume24h": 97956.52
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU18",
+              "label": "Ohio St. wins by over 17.5 points",
+              "yesBidCents": 39,
+              "yesAskCents": 43,
+              "impliedYes": 0.41,
+              "impliedYesNormalized": null,
+              "volume24h": 74715.39
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU22",
+              "label": "Ohio St. wins by over 21.5 points",
+              "yesBidCents": 31,
+              "yesAskCents": 37,
+              "impliedYes": 0.34,
+              "impliedYesNormalized": null,
+              "volume24h": 62391.39
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU12",
+              "label": "Ohio St. wins by over 11.5 points",
+              "yesBidCents": 65,
+              "yesAskCents": 70,
+              "impliedYes": 0.675,
+              "impliedYesNormalized": null,
+              "volume24h": 61500.08
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU10",
+              "label": "Ohio St. wins by over 9.5 points",
+              "yesBidCents": 65,
+              "yesAskCents": 75,
+              "impliedYes": 0.7,
+              "impliedYesNormalized": null,
+              "volume24h": 49624.84
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU36",
+              "label": "Ohio St. wins by over 35.5 points",
+              "yesBidCents": 5,
+              "yesAskCents": 21,
+              "impliedYes": 0.13,
+              "impliedYesNormalized": null,
+              "volume24h": 31192.88
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU11",
+              "label": "Ohio St. wins by over 10.5 points",
+              "yesBidCents": 66,
+              "yesAskCents": 77,
+              "impliedYes": 0.715,
+              "impliedYesNormalized": null,
+              "volume24h": 26323.17
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU7",
+              "label": "Ohio St. wins by over 6.5 points",
+              "yesBidCents": 75,
+              "yesAskCents": 84,
+              "impliedYes": 0.795,
+              "impliedYesNormalized": null,
+              "volume24h": 20635.94
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU24",
+              "label": "Ohio St. wins by over 23.5 points",
+              "yesBidCents": 30,
+              "yesAskCents": 40,
+              "impliedYes": 0.35,
+              "impliedYesNormalized": null,
+              "volume24h": 19115.88
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU25",
+              "label": "Ohio St. wins by over 24.5 points",
+              "yesBidCents": 26,
+              "yesAskCents": 31,
+              "impliedYes": 0.285,
+              "impliedYesNormalized": null,
+              "volume24h": 16198.13
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA11",
+              "label": "Iowa wins by over 10.5 points",
+              "yesBidCents": 1,
+              "yesAskCents": 3,
+              "impliedYes": 0.02,
+              "impliedYesNormalized": null,
+              "volume24h": 13266.96
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU8",
+              "label": "Ohio St. wins by over 7.5 points",
+              "yesBidCents": 70,
+              "yesAskCents": 74,
+              "impliedYes": 0.72,
+              "impliedYesNormalized": null,
+              "volume24h": 12326.24
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA3",
+              "label": "Iowa wins by over 2.5 points",
+              "yesBidCents": 3,
+              "yesAskCents": 13,
+              "impliedYes": 0.08,
+              "impliedYesNormalized": null,
+              "volume24h": 8778.1
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU6",
+              "label": "Ohio St. wins by over 5.5 points",
+              "yesBidCents": 73,
+              "yesAskCents": 84,
+              "impliedYes": 0.785,
+              "impliedYesNormalized": null,
+              "volume24h": 8475.99
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU31",
+              "label": "Ohio St. wins by over 30.5 points",
+              "yesBidCents": 11,
+              "yesAskCents": 24,
+              "impliedYes": 0.175,
+              "impliedYesNormalized": null,
+              "volume24h": 7790.9
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU3",
+              "label": "Ohio St. wins by over 2.5 points",
+              "yesBidCents": 81,
+              "yesAskCents": 89,
+              "impliedYes": 0.85,
+              "impliedYesNormalized": null,
+              "volume24h": 5347.02
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU28",
+              "label": "Ohio St. wins by over 27.5 points",
+              "yesBidCents": 20,
+              "yesAskCents": 31,
+              "impliedYes": 0.255,
+              "impliedYesNormalized": null,
+              "volume24h": 4636.78
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA8",
+              "label": "Iowa wins by over 7.5 points",
+              "yesBidCents": 0,
+              "yesAskCents": 6,
+              "impliedYes": 0.03,
+              "impliedYesNormalized": null,
+              "volume24h": 4465.8
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA7",
+              "label": "Iowa wins by over 6.5 points",
+              "yesBidCents": 2,
+              "yesAskCents": 8,
+              "impliedYes": 0.05,
+              "impliedYesNormalized": null,
+              "volume24h": 4161.51
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA4",
+              "label": "Iowa wins by over 3.5 points",
+              "yesBidCents": 3,
+              "yesAskCents": 11,
+              "impliedYes": 0.07,
+              "impliedYesNormalized": null,
+              "volume24h": 3803.93
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA10",
+              "label": "Iowa wins by over 9.5 points",
+              "yesBidCents": 2,
+              "yesAskCents": 5,
+              "impliedYes": 0.035,
+              "impliedYesNormalized": null,
+              "volume24h": 3079.88
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU2",
+              "label": "Ohio St. wins by over 1.5 points",
+              "yesBidCents": 82,
+              "yesAskCents": 89,
+              "impliedYes": 0.855,
+              "impliedYesNormalized": null,
+              "volume24h": 2368.04
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU34",
+              "label": "Ohio St. wins by over 33.5 points",
+              "yesBidCents": 11,
+              "yesAskCents": 21,
+              "impliedYes": 0.16,
+              "impliedYesNormalized": null,
+              "volume24h": 2357.63
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA5",
+              "label": "Iowa wins by over 4.5 points",
+              "yesBidCents": 2,
+              "yesAskCents": 9,
+              "impliedYes": 0.055,
+              "impliedYesNormalized": null,
+              "volume24h": 1969.42
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA2",
+              "label": "Iowa wins by over 1.5 points",
+              "yesBidCents": 3,
+              "yesAskCents": 16,
+              "impliedYes": 0.095,
+              "impliedYesNormalized": null,
+              "volume24h": 1498.01
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU4",
+              "label": "Ohio St. wins by over 3.5 points",
+              "yesBidCents": 78,
+              "yesAskCents": 89,
+              "impliedYes": 0.835,
+              "impliedYesNormalized": null,
+              "volume24h": 1104.63
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-IOWA6",
+              "label": "Iowa wins by over 5.5 points",
+              "yesBidCents": 2,
+              "yesAskCents": 8,
+              "impliedYes": 0.05,
+              "impliedYesNormalized": null,
+              "volume24h": 885.89
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03OSUIOWA-OSU5",
+              "label": "Ohio St. wins by over 4.5 points",
+              "yesBidCents": 76,
+              "yesAskCents": 89,
+              "impliedYes": 0.825,
+              "impliedYesNormalized": null,
+              "volume24h": 412.82
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXNCAAFSPREAD-26OCT03OSUIOWA"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If Ohio St. wins by more than 35.5 points in the Ohio St. vs Iowa college football game originally scheduled for Oct 3, 2026, then the market resolves to Yes.",
+          "secondary": "If the game is postponed but begins within 48 hours of its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closesAt": "2026-10-05T19:30:00.000Z",
+          "expectedSettleAt": "2026-10-03T22:30:00.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "ESPN",
+          "url": "https://www.espn.com"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://www.espn.com"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03osuiowa"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxncaafspread"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Sports",
+            "horizonHours": 6,
+            "markets": 1013,
+            "brierOfMid": 0.1789,
+            "longshot": {
+              "n": 47,
+              "yesCount": 1,
+              "yesRate": 0.0213,
+              "yesRate95": [
+                0.0038,
+                0.1111
+              ],
+              "avgYesAsk": 0.0332
+            },
+            "favorite": {
+              "n": 20,
+              "yesCount": 20,
+              "yesRate": 1,
+              "yesRate95": [
+                0.8389,
+                1
+              ],
+              "avgYesAsk": 0.9665
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXNCAAFSPREAD-26OCT03OSUIOWA@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}
