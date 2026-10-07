@@ -1,6 +1,6 @@
 import process from "node:process";
 import { fileURLToPath } from "node:url";
-import { assertedNow, resolveDate, reportWrite, writeBundleIfAbsent } from "@causeway-services/koios-news-service-section/news/newswire";
+import { assertedNow, resolveDate, reportWrite, writeBundleIfAbsent } from "@causeway-services/koios-news/news/newswire";
 const CLAIM_SETS_URL = process.env.RETE_AGENTIUM_CLAIM_SETS ?? "http://127.0.0.1:18791/newsroom-claim-sets.json";
 const STORE = fileURLToPath(new URL("../../store/rete-agentium/", import.meta.url));
 function slug(value) {

@@ -2,7 +2,7 @@
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { BODIES, EPHEMERIS_PROVENANCE, computeChart, findIngresses, findLunationQuarters, findStations, lunationOf, motionOf, signPlacement } from "@lenticule-science/divining/astrology";
-import { addDays, assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news-service-section/news/newswire";
+import { addDays, assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news/news/newswire";
 const WIRE = "astrologia";
 const WITNESS = "astrology-topology ephemeris";
 const STORE = fileURLToPath(new URL("../../store/astrologia/", import.meta.url));

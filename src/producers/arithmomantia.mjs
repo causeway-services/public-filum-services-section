@@ -2,7 +2,7 @@
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { reduceDate } from "@lenticule-science/divining/divination";
-import { assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news-service-section/news/newswire";
+import { assertedNow, computesClaim, reportWrite, resolveDate, writeBundleIfAbsent } from "@causeway-services/koios-news/news/newswire";
 const WIRE = "arithmomantia";
 const WITNESS = "divination-topology numerology";
 const STORE = fileURLToPath(new URL("../../store/arithmomantia/", import.meta.url));

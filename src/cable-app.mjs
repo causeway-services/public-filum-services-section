@@ -1,6 +1,6 @@
 import { Buffer } from "node:buffer";
 import { render } from "@red-cup-engineering/web-theming-service/theming";
-import { createNewscable, readNewscableSiteConfig, aggregateWires } from "@causeway-services/koios-news-service-section/news/newscable";
+import { createNewscable, readNewscableSiteConfig, aggregateWires } from "@causeway-services/koios-news/news/newscable";
 import { filumTheme } from "./theme.mjs";
 const renderDocument = (title, content, options)=>render(filumTheme, content, {
         title,
