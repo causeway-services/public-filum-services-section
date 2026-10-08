@@ -14,7 +14,7 @@
   "scripts": {
     "serve": "node src/serve.mjs",
     "ingest": "node src/ingest.mjs",
-    "assert": "node src/producers/arithmomantia.mjs && node src/producers/astrologia.mjs && node src/producers/cartomantia.mjs && node src/producers/lectio.mjs && node src/producers/rete-agentium.mjs"
+    "assert": "node src/producers/arithmomantia.mjs && node src/producers/astrologia.mjs && node src/producers/auguria.mjs && node src/producers/cartomantia.mjs && node src/producers/lectio.mjs && node src/producers/rete-agentium.mjs"
   },
   "dependencies": {
     "@causeway-services/koios-news": "0.0.7",

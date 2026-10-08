@@ -1,0 +1,430 @@
+{
+  "subject": "kxalbumequiv-ims26oct01-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What are the Kalshi odds on \"I’m So Happy: First Week Album Equivalent Units (I’m So Happy | September 25, 2026 - October 01, 2026)\"?"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price Above 30K at 4%, Above 25K at 98%, and Above 75K at 2% on \"I’m So Happy: First Week Album Equivalent Units\". The market closes in about 18 hours and settles on Luminate. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 8 outcomes and 2 thousand contracts traded in the last 24 hours.\n\n- **Above 30K**: 4% (bid 3 cents, ask 4 cents; 828 contracts in 24 hours)\n- **Above 40K**: 2% (bid 0 cents, ask 3 cents; 705 contracts in 24 hours)\n- **Above 25K**: 98% (bid 96 cents, ask 100 cents; 639 contracts in 24 hours)\n- **Above 100K**: 2% (bid 0 cents, ask 3 cents; 107 contracts in 24 hours)\n- **Above 10K**: 100% (bid 99 cents, ask 100 cents; 0 contracts in 24 hours)\n- **Above 20K**: 100% (bid 99 cents, ask 100 cents; 0 contracts in 24 hours)\n- **Above 75K**: 2% (bid 0 cents, ask 4 cents; 0 contracts in 24 hours)\n- **Above 50K**: 2% (bid 0 cents, ask 3 cents; 0 contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Entertainment markets quoted at 4 cents or less about 24 hours before close settled YES 0% of the time in our sample (27 markets; 95% interval 0% to 12%). This is a small sample and a lead, not a rule.\n\n## How does this market resolve?\n\n> If I’m So Happy by Ms. Rachel has above 10K Album Equivalent Units during the September 25, 2026 - October 01, 2026, tracking week, then the market resolves to Yes.\n\nClose: October 4, 2026 at 14:00 UTC. Expected settlement: October 4, 2026 at 14:00 UTC. Settlement source: [Luminate](https://luminatedata.com/). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/PERIODMEDIACONSUMPTION.pdf).\n\n## What could move the odds?\n\n- The daily or weekly chart the market settles on, as the platform publishes it, and in-day movement on the ranked item.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 95 settled Entertainment markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 24 hours before close had a Brier error of 0.06; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 0% of the time (27 markets); contracts quoted at 95 cents or more settled YES 100.0% (28 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"I’m So Happy: First Week Album Equivalent Units\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies Above 30K at 4%, Above 25K at 98%, and Above 75K at 2%. These move with every trade; the live market is at https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 4, 2026 at 14:00 UTC and is expected to settle October 4, 2026 at 14:00 UTC, in about 18 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names Luminate (https://luminatedata.com/) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/PERIODMEDIACONSUMPTION.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"I’m So Happy: First Week Album Equivalent Units\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies Above 30K at 4%, Above 25K at 98%, and Above 75K at 2%. These move with every trade; the live market is at https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 4, 2026 at 14:00 UTC and is expected to settle October 4, 2026 at 14:00 UTC, in about 18 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names Luminate (https://luminatedata.com/) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/PERIODMEDIACONSUMPTION.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXALBUMEQUIV-IMS26OCT01",
+          "markets": [
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-30K",
+              "label": "Above 30K",
+              "yesBidCents": 3,
+              "yesAskCents": 4,
+              "impliedYes": 0.035,
+              "impliedYesNormalized": null,
+              "volume24h": 828.49
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-40K",
+              "label": "Above 40K",
+              "yesBidCents": 0,
+              "yesAskCents": 3,
+              "impliedYes": 0.015,
+              "impliedYesNormalized": null,
+              "volume24h": 705.2
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-25K",
+              "label": "Above 25K",
+              "yesBidCents": 96,
+              "yesAskCents": 100,
+              "impliedYes": 0.98,
+              "impliedYesNormalized": null,
+              "volume24h": 639.38
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-100K",
+              "label": "Above 100K",
+              "yesBidCents": 0,
+              "yesAskCents": 3,
+              "impliedYes": 0.015,
+              "impliedYesNormalized": null,
+              "volume24h": 107.37
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-10K",
+              "label": "Above 10K",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 0
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-20K",
+              "label": "Above 20K",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": null,
+              "volume24h": 0
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-75K",
+              "label": "Above 75K",
+              "yesBidCents": 0,
+              "yesAskCents": 4,
+              "impliedYes": 0.02,
+              "impliedYesNormalized": null,
+              "volume24h": 0
+            },
+            {
+              "ticker": "KXALBUMEQUIV-IMS26OCT01-50K",
+              "label": "Above 50K",
+              "yesBidCents": 0,
+              "yesAskCents": 3,
+              "impliedYes": 0.015,
+              "impliedYesNormalized": null,
+              "volume24h": 0
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXALBUMEQUIV-IMS26OCT01"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If I’m So Happy by Ms. Rachel has above 10K Album Equivalent Units during the September 25, 2026 - October 01, 2026, tracking week, then the market resolves to Yes.",
+          "secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate’s API as of 10:00 AM ET on the Sunday immediately following the September 25, 2026 - October 01, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+          "closesAt": "2026-10-04T14:00:00.000Z",
+          "expectedSettleAt": "2026-10-04T14:00:00.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/PERIODMEDIACONSUMPTION.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "Luminate",
+          "url": "https://luminatedata.com/"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://luminatedata.com/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxalbumequiv/how-many-album-equivalent-will-album-sell/kxalbumequiv-ims26oct01"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxalbumequiv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Entertainment",
+            "horizonHours": 24,
+            "markets": 95,
+            "brierOfMid": 0.06,
+            "longshot": {
+              "n": 27,
+              "yesCount": 0,
+              "yesRate": 0,
+              "yesRate95": [
+                0,
+                0.1246
+              ],
+              "avgYesAsk": 0.0319
+            },
+            "favorite": {
+              "n": 28,
+              "yesCount": 28,
+              "yesRate": 1,
+              "yesRate95": [
+                0.8794,
+                1
+              ],
+              "avgYesAsk": 0.9886
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXALBUMEQUIV-IMS26OCT01@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}

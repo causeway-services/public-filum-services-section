@@ -1,0 +1,448 @@
+{
+  "subject": "kxtruthsocial-26oct03-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What are the Kalshi odds on \"Trump Truth Social posts this week? (9/27-10/3) (Sep 27, 2026 to Oct 3, 2026)\"?"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price 140-159 at 56%, 160-179 at 41%, and 180-199 at 6% on \"Trump Truth Social posts this week? (9/27-10/3)\". The market closes in about 18 hours and settles on Roll Call. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 10 outcomes and 57 thousand contracts traded in the last 24 hours.\n\n- **140-159**: 56% (bid 54 cents, ask 58 cents; 6 thousand contracts in 24 hours)\n- **160-179**: 41% (bid 39 cents, ask 42 cents; 5 thousand contracts in 24 hours)\n- **180-199**: 6% (bid 5 cents, ask 6 cents; 5 thousand contracts in 24 hours)\n- **200-219**: 3% (bid 2 cents, ask 3 cents; 7 thousand contracts in 24 hours)\n- **120-139**: 2% (bid 0 cents, ask 4 cents; 13 thousand contracts in 24 hours)\n- **>240**: 1% (bid 0 cents, ask 1 cents; 8 thousand contracts in 24 hours)\n- **100-119**: 1% (bid 0 cents, ask 1 cents; 5 thousand contracts in 24 hours)\n- **220-240**: 1% (bid 0 cents, ask 1 cents; 3 thousand contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. For calibration: in our sample of settled Politics markets, the Kalshi mid-price a day before close scored a Brier error of 0.0809 (a coin-flip price scores 0.25; lower is better).\n\n## How does this market resolve?\n\n> If the number of Truth Social posts by Donald Trump from Sep 27, 2026 to Oct 3, 2026 is below 80, then the market resolves to Yes.\n\nClose: October 4, 2026 at 13:59 UTC. Expected settlement: October 4, 2026 at 14:00 UTC. Settlement source: [Roll Call](https://rollcall.com/factbase/trump/topic/social/?platform=truth+social&sort=date&sort_order=desc&page=1). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/POLITICALSTAT.pdf).\n\n## What could move the odds?\n\n- New polling, official announcements or filings, and statements by the named officials.\n- The publication schedule of the named poll or tracker.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 119 settled Politics markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 24 hours before close had a Brier error of 0.0809; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 4.9% of the time (41 markets); contracts quoted at 95 cents or more settled YES 100.0% (8 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"Trump Truth Social posts this week? (9/27-10/3)\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies 140-159 at 56%, 160-179 at 41%, and 180-199 at 6%. These move with every trade; the live market is at https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 4, 2026 at 13:59 UTC and is expected to settle October 4, 2026 at 14:00 UTC, in about 18 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names Roll Call (https://rollcall.com/factbase/trump/topic/social/?platform=truth+social&sort=date&sort_order=desc&page=1) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/POLITICALSTAT.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"Trump Truth Social posts this week? (9/27-10/3)\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies 140-159 at 56%, 160-179 at 41%, and 180-199 at 6%. These move with every trade; the live market is at https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 4, 2026 at 13:59 UTC and is expected to settle October 4, 2026 at 14:00 UTC, in about 18 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names Roll Call (https://rollcall.com/factbase/trump/topic/social/?platform=truth+social&sort=date&sort_order=desc&page=1) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/POLITICALSTAT.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXTRUTHSOCIAL-26OCT03",
+          "markets": [
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B129",
+              "label": "120-139",
+              "yesBidCents": 0,
+              "yesAskCents": 4,
+              "impliedYes": 0.02,
+              "impliedYesNormalized": 0.0183,
+              "volume24h": 13476.45
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-T240",
+              "label": ">240",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0046,
+              "volume24h": 8184
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B209",
+              "label": "200-219",
+              "yesBidCents": 2,
+              "yesAskCents": 3,
+              "impliedYes": 0.025,
+              "impliedYesNormalized": 0.0229,
+              "volume24h": 7350.33
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B149",
+              "label": "140-159",
+              "yesBidCents": 54,
+              "yesAskCents": 58,
+              "impliedYes": 0.56,
+              "impliedYesNormalized": 0.5138,
+              "volume24h": 6361.83
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B169",
+              "label": "160-179",
+              "yesBidCents": 39,
+              "yesAskCents": 42,
+              "impliedYes": 0.405,
+              "impliedYesNormalized": 0.3716,
+              "volume24h": 5483.07
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B109",
+              "label": "100-119",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0046,
+              "volume24h": 5176.35
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B189",
+              "label": "180-199",
+              "yesBidCents": 5,
+              "yesAskCents": 6,
+              "impliedYes": 0.055,
+              "impliedYesNormalized": 0.0505,
+              "volume24h": 5037.39
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B230",
+              "label": "220-240",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0046,
+              "volume24h": 3463.94
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-T80",
+              "label": "<80",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0046,
+              "volume24h": 1458.51
+            },
+            {
+              "ticker": "KXTRUTHSOCIAL-26OCT03-B89",
+              "label": "80-99",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0046,
+              "volume24h": 1335
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUTHSOCIAL-26OCT03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If the number of Truth Social posts by Donald Trump from Sep 27, 2026 to Oct 3, 2026 is below 80, then the market resolves to Yes.",
+          "secondary": "How this is resolved\n\nThe observation period begins at 12:00 AM ET on Sep 27, 2026 and ends at 11:59 PM ET on Oct 3, 2026.\nThe primary resolution source for this market is Roll Call.\nIn the event that Roll Call data is unavailable or inaccurate, alternative sources may be used at Kalshi's discretion.\nThe post count will be recorded at 10:00 AM ET on Oct 4, 2026.\n\nPayout criteria\n\nTruths, ReTruths, and Quote Truths are included in the total count.\nReplies are included if captured by Roll Call.\n\"Between\" is inclusive of the lower and upper bound.\n\nDoesn’t count for payout: Posts deleted as of the Expiration Time.",
+          "closesAt": "2026-10-04T13:59:00.000Z",
+          "expectedSettleAt": "2026-10-04T14:00:00.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/POLITICALSTAT.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/factbase/trump/topic/social/?platform=truth+social&sort=date&sort_order=desc&page=1"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://rollcall.com/factbase/trump/topic/social/?platform=truth+social&sort=date&sort_order=desc&page=1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxtruthsocial/number-of-trump-truth-social-posts-this-week/kxtruthsocial-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxtruthsocial"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Politics",
+            "horizonHours": 24,
+            "markets": 119,
+            "brierOfMid": 0.0809,
+            "longshot": {
+              "n": 41,
+              "yesCount": 2,
+              "yesRate": 0.0488,
+              "yesRate95": [
+                0.0135,
+                0.1614
+              ],
+              "avgYesAsk": 0.0341
+            },
+            "favorite": {
+              "n": 8,
+              "yesCount": 8,
+              "yesRate": 1,
+              "yesRate95": [
+                0.6756,
+                1
+              ],
+              "avgYesAsk": 0.9716
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXTRUTHSOCIAL-26OCT03@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}

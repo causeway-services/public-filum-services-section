@@ -1,0 +1,448 @@
+{
+  "subject": "kxbiggestquake-03oct26-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What will the biggest earthquake be on Oct 3, 2026? What Kalshi's odds say"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price Magnitude of at least 5.4 at 58%, Magnitude of at least 5.2 at 66%, and Magnitude of at least 5.6 at 13% on \"What will the biggest earthquake be on Oct 3, 2026\". The market closes in about 4 hours and settles on the United States Geological Survey. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 10 outcomes and 3 thousand contracts traded in the last 24 hours.\n\n- **Magnitude of at least 7.0**: 3% (bid 2 cents, ask 3 cents; 458 contracts in 24 hours)\n- **Magnitude of at least 5.8**: 9% (bid 7 cents, ask 11 cents; 359 contracts in 24 hours)\n- **Magnitude of at least 5.2**: 66% (bid 35 cents, ask 97 cents; 352 contracts in 24 hours)\n- **Magnitude of at least 5.4**: 58% (bid 20 cents, ask 96 cents; 333 contracts in 24 hours)\n- **Magnitude of at least 5.6**: 13% (bid 12 cents, ask 14 cents; 325 contracts in 24 hours)\n- **Magnitude of at least 6.0**: 8% (bid 4 cents, ask 11 cents; 302 contracts in 24 hours)\n- **Magnitude of at least 6.6**: 3% (bid 2 cents, ask 3 cents; 286 contracts in 24 hours)\n- **Magnitude of at least 6.8**: 3% (bid 2 cents, ask 3 cents; 230 contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Climate and Weather markets quoted at 96 cents or more about 6 hours before close settled YES 100.0% of the time in our sample (14 markets; 95% interval 78% to 100.0%). This is a small sample and a lead, not a rule.\n\n## How does this market resolve?\n\n> If the highest USGS-reported earthquake magnitude worldwide during Oct 3, 2026 from 12:00:00 AM through 11:59:59 PM UTC is 5.2 or higher, then the market resolves to Yes.\n\nClose: October 3, 2026 at 23:59 UTC. Expected settlement: October 3, 2026 at 23:59 UTC. Settlement source: [the United States Geological Survey](https://www.usgs.gov). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/BIGGESTQUAKE.pdf).\n\n## What could move the odds?\n\n- A new National Blend of Models or National Weather Service forecast run, issued hourly.\n- For a same-day high, the maximum already observed at the station (the day's high cannot settle below it); for a low, the minimum so far.\n- A correction or late revision to the NWS Daily Climate Report that settles the market.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 75 settled Climate and Weather markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 6 hours before close had a Brier error of 0.0511; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 4.2% of the time (24 markets); contracts quoted at 95 cents or more settled YES 100.0% (14 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"What will the biggest earthquake be on Oct 3, 2026\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies Magnitude of at least 5.4 at 58%, Magnitude of at least 5.2 at 66%, and Magnitude of at least 5.6 at 13%. These move with every trade; the live market is at https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 3, 2026 at 23:59 UTC and is expected to settle October 3, 2026 at 23:59 UTC, in about 4 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names the United States Geological Survey (https://www.usgs.gov) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/BIGGESTQUAKE.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"What will the biggest earthquake be on Oct 3, 2026\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies Magnitude of at least 5.4 at 58%, Magnitude of at least 5.2 at 66%, and Magnitude of at least 5.6 at 13%. These move with every trade; the live market is at https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 3, 2026 at 23:59 UTC and is expected to settle October 3, 2026 at 23:59 UTC, in about 4 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names the United States Geological Survey (https://www.usgs.gov) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/BIGGESTQUAKE.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXBIGGESTQUAKE-03OCT26",
+          "markets": [
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-7.0",
+              "label": "Magnitude of at least 7.0",
+              "yesBidCents": 2,
+              "yesAskCents": 3,
+              "impliedYes": 0.025,
+              "impliedYesNormalized": null,
+              "volume24h": 457.87
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-5.8",
+              "label": "Magnitude of at least 5.8",
+              "yesBidCents": 7,
+              "yesAskCents": 11,
+              "impliedYes": 0.09,
+              "impliedYesNormalized": null,
+              "volume24h": 358.63
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-5.2",
+              "label": "Magnitude of at least 5.2",
+              "yesBidCents": 35,
+              "yesAskCents": 97,
+              "impliedYes": 0.66,
+              "impliedYesNormalized": null,
+              "volume24h": 352.33
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-5.4",
+              "label": "Magnitude of at least 5.4",
+              "yesBidCents": 20,
+              "yesAskCents": 96,
+              "impliedYes": 0.58,
+              "impliedYesNormalized": null,
+              "volume24h": 333.07
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-5.6",
+              "label": "Magnitude of at least 5.6",
+              "yesBidCents": 12,
+              "yesAskCents": 14,
+              "impliedYes": 0.13,
+              "impliedYesNormalized": null,
+              "volume24h": 324.58
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-6.0",
+              "label": "Magnitude of at least 6.0",
+              "yesBidCents": 4,
+              "yesAskCents": 11,
+              "impliedYes": 0.075,
+              "impliedYesNormalized": null,
+              "volume24h": 301.7
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-6.6",
+              "label": "Magnitude of at least 6.6",
+              "yesBidCents": 2,
+              "yesAskCents": 3,
+              "impliedYes": 0.025,
+              "impliedYesNormalized": null,
+              "volume24h": 286.37
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-6.8",
+              "label": "Magnitude of at least 6.8",
+              "yesBidCents": 2,
+              "yesAskCents": 3,
+              "impliedYes": 0.025,
+              "impliedYesNormalized": null,
+              "volume24h": 230.41
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-6.4",
+              "label": "Magnitude of at least 6.4",
+              "yesBidCents": 2,
+              "yesAskCents": 4,
+              "impliedYes": 0.03,
+              "impliedYesNormalized": null,
+              "volume24h": 23.62
+            },
+            {
+              "ticker": "KXBIGGESTQUAKE-03OCT26-6.2",
+              "label": "Magnitude of at least 6.2",
+              "yesBidCents": 3,
+              "yesAskCents": 4,
+              "impliedYes": 0.035,
+              "impliedYesNormalized": null,
+              "volume24h": 2.62
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXBIGGESTQUAKE-03OCT26"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If the highest USGS-reported earthquake magnitude worldwide during Oct 3, 2026 from 12:00:00 AM through 11:59:59 PM UTC is 5.2 or higher, then the market resolves to Yes.",
+          "secondary": "The determining value is the USGS-reported magnitude displayed at Expiration, preferentially moment magnitude (Mw) and otherwise the primary magnitude type reported by USGS. If multiple earthquakes tie for the highest magnitude, all tied earthquakes count. If USGS ComCat is unavailable at Expiration, settlement may be delayed under the Contract contingencies.",
+          "closesAt": "2026-10-03T23:59:59.000Z",
+          "expectedSettleAt": "2026-10-03T23:59:59.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/BIGGESTQUAKE.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "the United States Geological Survey",
+          "url": "https://www.usgs.gov"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://www.usgs.gov"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxbiggestquake/biggest-earthquake/kxbiggestquake-03oct26"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxbiggestquake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Climate and Weather",
+            "horizonHours": 6,
+            "markets": 75,
+            "brierOfMid": 0.0511,
+            "longshot": {
+              "n": 24,
+              "yesCount": 1,
+              "yesRate": 0.0417,
+              "yesRate95": [
+                0.0074,
+                0.2024
+              ],
+              "avgYesAsk": 0.0346
+            },
+            "favorite": {
+              "n": 14,
+              "yesCount": 14,
+              "yesRate": 1,
+              "yesRate95": [
+                0.7847,
+                1
+              ],
+              "avgYesAsk": 0.9807
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXBIGGESTQUAKE-03OCT26@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -22,6 +22,13 @@
         "keyword": "astrology"
       },
       {
+        "name": "auguria",
+        "title": "Auguria",
+        "description": "Kalshi markets read as signs: for each market closing soon, the odds as of an instant, the rule and settlement source, the house view with its evidence, and the base rate, with a question-and-answer projection.",
+        "author": "561 Group",
+        "keyword": "kalshi odds"
+      },
+      {
         "name": "cartomantia",
         "title": "Cartomantia",
         "description": "The daily single-card tarot draw, drawn deterministically from a dated seed so every draw is a checkable claim.",

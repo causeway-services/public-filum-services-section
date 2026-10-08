@@ -1,0 +1,413 @@
+{
+  "subject": "kxhighlax-26oct03-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Highest temperature in Los Angeles on Oct 3, 2026? What Kalshi's odds say"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price 99° or above at 100%, 95° to 96° at 1%, and 90° or below at 1% on \"Highest temperature in Los Angeles on Oct 3, 2026\". The market closes in about 12 hours and settles on The Weather Company. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 6 outcomes and 435 thousand contracts traded in the last 24 hours.\n\n- **99° or above**: 100% (bid 99 cents, ask 100 cents; 156 thousand contracts in 24 hours)\n- **95° to 96°**: 1% (bid 0 cents, ask 1 cents; 81 thousand contracts in 24 hours)\n- **90° or below**: 1% (bid 0 cents, ask 1 cents; 79 thousand contracts in 24 hours)\n- **97° to 98°**: 1% (bid 0 cents, ask 1 cents; 59 thousand contracts in 24 hours)\n- **91° to 92°**: 1% (bid 0 cents, ask 1 cents; 32 thousand contracts in 24 hours)\n- **93° to 94°**: 1% (bid 0 cents, ask 1 cents; 27 thousand contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Climate and Weather markets quoted at 100 cents or more about 24 hours before close settled YES 100.0% of the time in our sample (5 markets; 95% interval 57% to 100.0%). This is a small sample and a lead, not a rule.\n\n## How does this market resolve?\n\n> If the maximum temperature recorded at Los Angeles (CLILAX) for Oct 3, 2026, is less than 91° fahrenheit according to The Weather Company, then the market resolves to Yes.\n\nClose: October 4, 2026 at 08:00 UTC. Expected settlement: October 4, 2026 at 19:00 UTC. Settlement source: [The Weather Company](https://weather.com/kalshi). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf).\n\n## What could move the odds?\n\n- A new National Blend of Models or National Weather Service forecast run, issued hourly.\n- For a same-day high, the maximum already observed at the station (the day's high cannot settle below it); for a low, the minimum so far.\n- A correction or late revision to the NWS Daily Climate Report that settles the market.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 359 settled Climate and Weather markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 24 hours before close had a Brier error of 0.0879; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 1.8% of the time (109 markets); contracts quoted at 95 cents or more settled YES 100.0% (5 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"Highest temperature in Los Angeles on Oct 3, 2026\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies 99° or above at 100%, 95° to 96° at 1%, and 90° or below at 1%. These move with every trade; the live market is at https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 4, 2026 at 08:00 UTC and is expected to settle October 4, 2026 at 19:00 UTC, in about 12 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names The Weather Company (https://weather.com/kalshi) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"Highest temperature in Los Angeles on Oct 3, 2026\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies 99° or above at 100%, 95° to 96° at 1%, and 90° or below at 1%. These move with every trade; the live market is at https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 4, 2026 at 08:00 UTC and is expected to settle October 4, 2026 at 19:00 UTC, in about 12 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names The Weather Company (https://weather.com/kalshi) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXHIGHLAX-26OCT03",
+          "markets": [
+            {
+              "ticker": "KXHIGHLAX-26OCT03-T98",
+              "label": "99° or above",
+              "yesBidCents": 99,
+              "yesAskCents": 100,
+              "impliedYes": 0.995,
+              "impliedYesNormalized": 0.9755,
+              "volume24h": 156288.47
+            },
+            {
+              "ticker": "KXHIGHLAX-26OCT03-B95.5",
+              "label": "95° to 96°",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0049,
+              "volume24h": 81410.77
+            },
+            {
+              "ticker": "KXHIGHLAX-26OCT03-T91",
+              "label": "90° or below",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0049,
+              "volume24h": 78930.12
+            },
+            {
+              "ticker": "KXHIGHLAX-26OCT03-B97.5",
+              "label": "97° to 98°",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0049,
+              "volume24h": 59447.82
+            },
+            {
+              "ticker": "KXHIGHLAX-26OCT03-B91.5",
+              "label": "91° to 92°",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0049,
+              "volume24h": 32289.72
+            },
+            {
+              "ticker": "KXHIGHLAX-26OCT03-B93.5",
+              "label": "93° to 94°",
+              "yesBidCents": 0,
+              "yesAskCents": 1,
+              "impliedYes": 0.005,
+              "impliedYesNormalized": 0.0049,
+              "volume24h": 26823.14
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXHIGHLAX-26OCT03"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If the maximum temperature recorded at Los Angeles (CLILAX) for Oct 3, 2026, is less than 91° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+          "secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+          "closesAt": "2026-10-04T08:00:00.000Z",
+          "expectedSettleAt": "2026-10-04T19:00:00.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "The Weather Company",
+          "url": "https://weather.com/kalshi"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://weather.com/kalshi"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxhighlax/highest-temperature-in-los-angeles/kxhighlax-26oct03"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxhighlax"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": "nbm-student-t-temperature",
+          "status": "unpriced",
+          "reason": "no NBM high for KLAX on 2026-10-03 in run 2026-10-03T18:00:00.000Z",
+          "usableAs": "far-tail certification only (see content/config/kalshi-house-lanes.json weather-tail-premium)",
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "nbm-student-t-temperature",
+        "method": "none; absence stated",
+        "accuracy": "far-tail certification only (see content/config/kalshi-house-lanes.json weather-tail-premium)"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Climate and Weather",
+            "horizonHours": 24,
+            "markets": 359,
+            "brierOfMid": 0.0879,
+            "longshot": {
+              "n": 109,
+              "yesCount": 2,
+              "yesRate": 0.0183,
+              "yesRate95": [
+                0.005,
+                0.0644
+              ],
+              "avgYesAsk": 0.0293
+            },
+            "favorite": {
+              "n": 5,
+              "yesCount": 5,
+              "yesRate": 1,
+              "yesRate95": [
+                0.5655,
+                1
+              ],
+              "avgYesAsk": 0.968
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXHIGHLAX-26OCT03@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}
