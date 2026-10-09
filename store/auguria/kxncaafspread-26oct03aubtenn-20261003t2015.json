@@ -1,0 +1,637 @@
+{
+  "subject": "kxncaafspread-26oct03aubtenn-20261003t2015",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What are the Kalshi odds on \"Auburn vs Tennessee: Spread (AUB vs TENN (Oct 3))\"?"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question headline from the event title"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of October 3, 2026 at 20:15 UTC, Kalshi traders price Tennessee wins by over 6.5 points at 48%, Tennessee wins by over 5.5 points at 54%, and Tennessee wins by over 4.5 points at 55% on \"Auburn vs Tennessee: Spread\". The market closes in about 2 hours and settles on ESPN. We have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. Live market: https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "direct answer: odds as of T, close, settlement source, house view",
+        "citation": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "article",
+      "proposition": {
+        "predicate": "article",
+        "object": "## What are the current Kalshi odds?\n\nOdds as of October 3, 2026 at 20:15 UTC. Each price is the middle of the bid and the ask, read as a probability; the market lists 31 outcomes and 1.1 million contracts traded in the last 24 hours.\n\n- **Tennessee wins by over 6.5 points**: 48% (bid 47 cents, ask 48 cents; 772 thousand contracts in 24 hours)\n- **Tennessee wins by over 5.5 points**: 54% (bid 53 cents, ask 54 cents; 113 thousand contracts in 24 hours)\n- **Tennessee wins by over 7.5 points**: 44% (bid 43 cents, ask 44 cents; 96 thousand contracts in 24 hours)\n- **Tennessee wins by over 4.5 points**: 55% (bid 54 cents, ask 56 cents; 44 thousand contracts in 24 hours)\n- **Tennessee wins by over 3.5 points**: 56% (bid 56 cents, ask 57 cents; 19 thousand contracts in 24 hours)\n- **Tennessee wins by over 9.5 points**: 41% (bid 40 cents, ask 42 cents; 18 thousand contracts in 24 hours)\n- **Auburn wins by over 14.5 points**: 5% (bid 4 cents, ask 5 cents; 14 thousand contracts in 24 hours)\n- **Tennessee wins by over 2.5 points**: 66% (bid 65 cents, ask 66 cents; 13 thousand contracts in 24 hours)\n\nPrices change with every trade; the [live Kalshi market](https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn) is the current figure.\n\n## What is our view?\n\nWe have no model of our own for this market, so the odds above are the traders' consensus and not an independent estimate. For calibration: in our sample of settled Sports markets, the Kalshi mid-price a day before close scored a Brier error of 0.1789 (a coin-flip price scores 0.25; lower is better).\n\n## How does this market resolve?\n\n> If Tennessee wins by more than 27.5 points in the Auburn vs Tennessee college football game originally scheduled for Oct 3, 2026, then the market resolves to Yes.\n\nClose: October 5, 2026 at 19:30 UTC. Expected settlement: October 3, 2026 at 22:30 UTC. Settlement source: [ESPN](https://www.espn.com). Full terms: [Kalshi contract terms](https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf).\n\n## What could move the odds?\n\n- Lineup and injury news, and the live game state once play starts.\n- Postponement or cancellation under the rules' fair-price clause.\n- A rules clarification or settlement-source change published by Kalshi on the market page.\n- Order-book depth: thin books move on small orders, so a large price move on little volume says little.\n\n## How reliable are markets like this one?\n\nAcross 1,013 settled Sports markets in our sample (Kalshi, 2026-09-29 to 2026-10-03), the Kalshi mid-price about 6 hours before close had a Brier error of 0.1789; a coin-flip price scores 0.25 and lower is better. Contracts quoted at 5 cents or less settled YES 2.1% of the time (47 markets); contracts quoted at 95 cents or more settled YES 100.0% (20 markets). The sample covers a few weeks, so it is a guide to how markets like this have behaved, not a guarantee of how this one will settle.\n\n## Frequently asked questions\n\n### What are the odds on \"Auburn vs Tennessee: Spread\"?\n\nAs of October 3, 2026 at 20:15 UTC, Kalshi implies Tennessee wins by over 6.5 points at 48%, Tennessee wins by over 5.5 points at 54%, and Tennessee wins by over 4.5 points at 55%. These move with every trade; the live market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn.\n\n### What does a price on Kalshi mean as a probability?\n\nA contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask.\n\n### When does this market close and settle?\n\nIt closes October 5, 2026 at 19:30 UTC and is expected to settle October 3, 2026 at 22:30 UTC, in about 2 hours from the time of writing.\n\n### Where does the settlement data come from?\n\nKalshi names ESPN (https://www.espn.com) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf.\n\n### Can I bet on this on Kalshi?\n\nKalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn.\n\n### Is this financial advice?\n\nNo. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price.\n\n## About these odds\n\nOdds are a snapshot taken October 3, 2026 at 20:15 UTC from Kalshi's public market data and are not a prediction. This uses public information only and is not financial advice; prediction-market contracts can lose their entire price. The 561 Group, which publishes this wire and Koios.News, may trade on Kalshi, including in this market."
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "question-sectioned article from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-1",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What are the odds on \"Auburn vs Tennessee: Spread\"?",
+          "answer": "As of October 3, 2026 at 20:15 UTC, Kalshi implies Tennessee wins by over 6.5 points at 48%, Tennessee wins by over 5.5 points at 54%, and Tennessee wins by over 4.5 points at 55%. These move with every trade; the live market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-2",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "What does a price on Kalshi mean as a probability?",
+          "answer": "A contract that pays $1 if the outcome happens and trades at 45 cents implies about a 45% chance, before fees and ignoring the small gap between the bid and the ask. We take the middle of the bid and the ask."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-3",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "When does this market close and settle?",
+          "answer": "It closes October 5, 2026 at 19:30 UTC and is expected to settle October 3, 2026 at 22:30 UTC, in about 2 hours from the time of writing."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-4",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Where does the settlement data come from?",
+          "answer": "Kalshi names ESPN (https://www.espn.com) as the settlement source. The full contract terms are at https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-5",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Can I bet on this on Kalshi?",
+          "answer": "Kalshi is a federally regulated exchange (a CFTC-designated contract market). Whether you can trade depends on your location and eligibility under Kalshi's terms. The market is at https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "faq-6",
+      "proposition": {
+        "predicate": "faq",
+        "object": {
+          "question": "Is this financial advice?",
+          "answer": "No. This wire reports a market's odds and its publisher's analysis from public information. Prediction-market contracts can lose their entire price."
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "auguria prose projection",
+        "method": "FAQ from the claims of this bundle"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "odds",
+      "proposition": {
+        "predicate": "odds-as-of",
+        "object": {
+          "asOf": "2026-10-03T20:15:12.469Z",
+          "event": "KXNCAAFSPREAD-26OCT03AUBTENN",
+          "markets": [
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN7",
+              "label": "Tennessee wins by over 6.5 points",
+              "yesBidCents": 47,
+              "yesAskCents": 48,
+              "impliedYes": 0.475,
+              "impliedYesNormalized": null,
+              "volume24h": 772416.58
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN6",
+              "label": "Tennessee wins by over 5.5 points",
+              "yesBidCents": 53,
+              "yesAskCents": 54,
+              "impliedYes": 0.535,
+              "impliedYesNormalized": null,
+              "volume24h": 112700.04
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN8",
+              "label": "Tennessee wins by over 7.5 points",
+              "yesBidCents": 43,
+              "yesAskCents": 44,
+              "impliedYes": 0.435,
+              "impliedYesNormalized": null,
+              "volume24h": 95961.72
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN5",
+              "label": "Tennessee wins by over 4.5 points",
+              "yesBidCents": 54,
+              "yesAskCents": 56,
+              "impliedYes": 0.55,
+              "impliedYesNormalized": null,
+              "volume24h": 44376.42
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN4",
+              "label": "Tennessee wins by over 3.5 points",
+              "yesBidCents": 56,
+              "yesAskCents": 57,
+              "impliedYes": 0.565,
+              "impliedYesNormalized": null,
+              "volume24h": 18885.05
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN10",
+              "label": "Tennessee wins by over 9.5 points",
+              "yesBidCents": 40,
+              "yesAskCents": 42,
+              "impliedYes": 0.41,
+              "impliedYesNormalized": null,
+              "volume24h": 17556.93
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB15",
+              "label": "Auburn wins by over 14.5 points",
+              "yesBidCents": 4,
+              "yesAskCents": 5,
+              "impliedYes": 0.045,
+              "impliedYesNormalized": null,
+              "volume24h": 13740.58
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN3",
+              "label": "Tennessee wins by over 2.5 points",
+              "yesBidCents": 65,
+              "yesAskCents": 66,
+              "impliedYes": 0.655,
+              "impliedYesNormalized": null,
+              "volume24h": 12628.79
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN24",
+              "label": "Tennessee wins by over 23.5 points",
+              "yesBidCents": 11,
+              "yesAskCents": 12,
+              "impliedYes": 0.115,
+              "impliedYesNormalized": null,
+              "volume24h": 10403.03
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN14",
+              "label": "Tennessee wins by over 13.5 points",
+              "yesBidCents": 28,
+              "yesAskCents": 29,
+              "impliedYes": 0.285,
+              "impliedYesNormalized": null,
+              "volume24h": 6927.11
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN28",
+              "label": "Tennessee wins by over 27.5 points",
+              "yesBidCents": 8,
+              "yesAskCents": 9,
+              "impliedYes": 0.085,
+              "impliedYesNormalized": null,
+              "volume24h": 6621.45
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN11",
+              "label": "Tennessee wins by over 10.5 points",
+              "yesBidCents": 36,
+              "yesAskCents": 37,
+              "impliedYes": 0.365,
+              "impliedYesNormalized": null,
+              "volume24h": 5820.16
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN15",
+              "label": "Tennessee wins by over 14.5 points",
+              "yesBidCents": 24,
+              "yesAskCents": 26,
+              "impliedYes": 0.25,
+              "impliedYesNormalized": null,
+              "volume24h": 3080.09
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB8",
+              "label": "Auburn wins by over 7.5 points",
+              "yesBidCents": 11,
+              "yesAskCents": 12,
+              "impliedYes": 0.115,
+              "impliedYesNormalized": null,
+              "volume24h": 2787.08
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB7",
+              "label": "Auburn wins by over 6.5 points",
+              "yesBidCents": 14,
+              "yesAskCents": 15,
+              "impliedYes": 0.145,
+              "impliedYesNormalized": null,
+              "volume24h": 2656.23
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN22",
+              "label": "Tennessee wins by over 21.5 points",
+              "yesBidCents": 12,
+              "yesAskCents": 13,
+              "impliedYes": 0.125,
+              "impliedYesNormalized": null,
+              "volume24h": 2592.03
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB3",
+              "label": "Auburn wins by over 2.5 points",
+              "yesBidCents": 24,
+              "yesAskCents": 26,
+              "impliedYes": 0.25,
+              "impliedYesNormalized": null,
+              "volume24h": 1626.66
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN21",
+              "label": "Tennessee wins by over 20.5 points",
+              "yesBidCents": 14,
+              "yesAskCents": 16,
+              "impliedYes": 0.15,
+              "impliedYesNormalized": null,
+              "volume24h": 1622.34
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN2",
+              "label": "Tennessee wins by over 1.5 points",
+              "yesBidCents": 67,
+              "yesAskCents": 68,
+              "impliedYes": 0.675,
+              "impliedYesNormalized": null,
+              "volume24h": 1444.31
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN25",
+              "label": "Tennessee wins by over 24.5 points",
+              "yesBidCents": 9,
+              "yesAskCents": 10,
+              "impliedYes": 0.095,
+              "impliedYesNormalized": null,
+              "volume24h": 1311.96
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB10",
+              "label": "Auburn wins by over 9.5 points",
+              "yesBidCents": 9,
+              "yesAskCents": 11,
+              "impliedYes": 0.1,
+              "impliedYesNormalized": null,
+              "volume24h": 1295.18
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB5",
+              "label": "Auburn wins by over 4.5 points",
+              "yesBidCents": 17,
+              "yesAskCents": 19,
+              "impliedYes": 0.18,
+              "impliedYesNormalized": null,
+              "volume24h": 1203.38
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB12",
+              "label": "Auburn wins by over 11.5 points",
+              "yesBidCents": 7,
+              "yesAskCents": 8,
+              "impliedYes": 0.075,
+              "impliedYesNormalized": null,
+              "volume24h": 969.91
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN18",
+              "label": "Tennessee wins by over 17.5 points",
+              "yesBidCents": 19,
+              "yesAskCents": 20,
+              "impliedYes": 0.195,
+              "impliedYesNormalized": null,
+              "volume24h": 765.45
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB2",
+              "label": "Auburn wins by over 1.5 points",
+              "yesBidCents": 26,
+              "yesAskCents": 28,
+              "impliedYes": 0.27,
+              "impliedYesNormalized": null,
+              "volume24h": 594.68
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN17",
+              "label": "Tennessee wins by over 16.5 points",
+              "yesBidCents": 21,
+              "yesAskCents": 23,
+              "impliedYes": 0.22,
+              "impliedYesNormalized": null,
+              "volume24h": 391.65
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-TENN12",
+              "label": "Tennessee wins by over 11.5 points",
+              "yesBidCents": 33,
+              "yesAskCents": 34,
+              "impliedYes": 0.335,
+              "impliedYesNormalized": null,
+              "volume24h": 363.67
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB4",
+              "label": "Auburn wins by over 3.5 points",
+              "yesBidCents": 19,
+              "yesAskCents": 21,
+              "impliedYes": 0.2,
+              "impliedYesNormalized": null,
+              "volume24h": 314.13
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB11",
+              "label": "Auburn wins by over 10.5 points",
+              "yesBidCents": 8,
+              "yesAskCents": 9,
+              "impliedYes": 0.085,
+              "impliedYesNormalized": null,
+              "volume24h": 286.5
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB6",
+              "label": "Auburn wins by over 5.5 points",
+              "yesBidCents": 16,
+              "yesAskCents": 18,
+              "impliedYes": 0.17,
+              "impliedYesNormalized": null,
+              "volume24h": 238.03
+            },
+            {
+              "ticker": "KXNCAAFSPREAD-26OCT03AUBTENN-AUB14",
+              "label": "Auburn wins by over 13.5 points",
+              "yesBidCents": 5,
+              "yesAskCents": 6,
+              "impliedYes": 0.055,
+              "impliedYesNormalized": null,
+              "volume24h": 86.58
+            }
+          ]
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public market data",
+        "method": "mid of the two-sided book; bid and ask as quoted at the instant",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/events/KXNCAAFSPREAD-26OCT03AUBTENN"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "rule",
+      "proposition": {
+        "predicate": "rule",
+        "object": {
+          "primary": "If Tennessee wins by more than 27.5 points in the Auburn vs Tennessee college football game originally scheduled for Oct 3, 2026, then the market resolves to Yes.",
+          "secondary": "If the game is postponed but begins within 48 hours of its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closesAt": "2026-10-05T19:30:00.000Z",
+          "expectedSettleAt": "2026-10-03T22:30:00.000Z"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi contract rules",
+        "method": "verbatim from the market record",
+        "citation": "https://assets.kalshi.com/contract_terms/FOOTBALLSPREAD.pdf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "settlement-source",
+      "proposition": {
+        "predicate": "settlement-source",
+        "object": {
+          "name": "ESPN",
+          "url": "https://www.espn.com"
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi event record",
+        "method": "settlement_sources of the event",
+        "citation": "https://www.espn.com"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "market-url",
+      "proposition": {
+        "predicate": "market-url",
+        "object": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03aubtenn"
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "confirms",
+      "provenance": {
+        "witness": "Kalshi public site",
+        "method": "url form kalshi.com/markets/{series}/{series-title}/{event}",
+        "citation": "https://kalshi.com/markets/kxncaafspread"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "house-view",
+      "proposition": {
+        "predicate": "house-view",
+        "object": {
+          "model": null,
+          "status": "no-model",
+          "reason": "the house has no model for this market; the brief carries market-implied odds and the category base rate",
+          "usableAs": null,
+          "probabilities": [],
+          "evidence": []
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "no house model applies",
+        "method": "none; absence stated"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "base-rate",
+      "proposition": {
+        "predicate": "base-rate",
+        "object": {
+          "category": {
+            "category": "Sports",
+            "horizonHours": 6,
+            "markets": 1013,
+            "brierOfMid": 0.1789,
+            "longshot": {
+              "n": 47,
+              "yesCount": 1,
+              "yesRate": 0.0213,
+              "yesRate95": [
+                0.0038,
+                0.1111
+              ],
+              "avgYesAsk": 0.0332
+            },
+            "favorite": {
+              "n": 20,
+              "yesCount": 20,
+              "yesRate": 1,
+              "yesRate95": [
+                0.8389,
+                1
+              ],
+              "avgYesAsk": 0.9665
+            },
+            "source": "content/config/kalshi-category-base-rates.json",
+            "window": [
+              "2026-09-29",
+              "2026-10-03"
+            ]
+          },
+          "family": null
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "house settled-market sample",
+        "method": "forecasting-service content/config/kalshi-category-base-rates.json (derive.py over settled Kalshi markets)",
+        "accuracy": "few weeks of settlements; small bands are leads, not rules",
+        "citation": "https://api.elections.kalshi.com/trade-api/v2/markets?status=settled"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "brief",
+      "proposition": {
+        "predicate": "source-brief",
+        "object": {
+          "briefId": "KXNCAAFSPREAD-26OCT03AUBTENN@20261003T201512Z",
+          "opportunities": 0
+        }
+      },
+      "time": {
+        "asserted": "2026-10-03T21:05:43.229Z",
+        "valid": "2026-10-03T20:15:12.469Z"
+      },
+      "force": "computes",
+      "provenance": {
+        "witness": "forecasting-service kalshi-market-brief",
+        "method": "buildKalshiMarketBrief"
+      },
+      "status": "supported"
+    }
+  ]
+}
