@@ -17,11 +17,11 @@
     "assert": "node src/producers/arithmomantia.mjs && node src/producers/astrologia.mjs && node src/producers/auguria.mjs && node src/producers/cartomantia.mjs && node src/producers/lectio.mjs && node src/producers/rete-agentium.mjs"
   },
   "dependencies": {
-    "@causeway-services/koios-news": "0.0.7",
-    "@lenticule-science/divining": "0.4.2",
-    "@red-cup-engineering/computer-web-server": "0.6.0",
-    "@red-cup-engineering/http-services-section": "0.6.0",
-    "@red-cup-engineering/web-theming-service": "0.0.4"
+    "@causeway-services/koios-news": "workspace:*",
+    "@lenticule-science/divining": "workspace:*",
+    "@red-cup-engineering/computer-web-server": "workspace:*",
+    "@red-cup-engineering/http-services-section": "workspace:*",
+    "@red-cup-engineering/web-theming-service": "workspace:*"
   },
   "sideEffects": false
 }
