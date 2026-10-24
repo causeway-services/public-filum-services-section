@@ -26,12 +26,12 @@
   "defaultPaidState": "not-authorized",
   "pilotSections": [
     {
-      "sectionId": 1425792110,
-      "sourceRepository": "lenticule-science/predicate-science-services-section",
-      "intendedOrigin": "https://predicate-science.filum.561.group/",
+      "sectionId": 1425773110,
+      "sourceRepository": "lenticule-science/identifier-services-section",
+      "intendedOrigin": "https://identifier.filum.561.group/",
       "sectionVisibility": "public",
       "planState": "uninstalled",
-      "evidence": "original canonical public GitHub section repository; no admitted newsroom stream"
+      "evidence": "observed in 2026-10-22 source-pinned Group GitHub repository census; science source; no admitted newsroom feed"
     },
     {
       "sectionId": 1425320449,
@@ -39,15 +39,7 @@
       "intendedOrigin": "https://specification-engineering.filum.561.group/",
       "sectionVisibility": "public",
       "planState": "uninstalled",
-      "evidence": "original canonical public GitHub section repository; no admitted newsroom stream"
-    },
-    {
-      "sectionId": 1425241728,
-      "sourceRepository": "coesite-operations/group-operations-services-section",
-      "intendedOrigin": "https://group-operations.filum.561.group/",
-      "sectionVisibility": "public",
-      "planState": "uninstalled",
-      "evidence": "original canonical public GitHub section repository; no admitted newsroom stream"
+      "evidence": "observed in 2026-10-22 source-pinned Group GitHub repository census; engineering source; no admitted newsroom feed"
     }
   ],
   "publicationGrants": [],
@@ -63,5 +55,6 @@
   "humanAndAgentDisclosures": {
     "paidData": "The public Filum directory describes only independently received published resources; pricing is read live from the original merchant",
     "privacy": "Private sections and observations are not listed without affirmative public-source and editorial authorization."
-  }
+  },
+  "sectionPhaseCoverageNote": "The original dated census contains zero public Coesite operations sections. Current Coesite public repositories discovered after that snapshot require a new independently admitted source page/census before their public pilot can be projected. Private Operations sections remain private."
 }
