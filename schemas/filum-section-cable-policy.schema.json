@@ -22,7 +22,9 @@
     "saleGrants",
     "noAutomaticPublicationOfPrivateSource",
     "publicReleaseRequires",
-    "humanAndAgentDisclosures"
+    "humanAndAgentDisclosures",
+    "publicSectionDiscovery",
+    "publicSectionDiscoveryNote"
   ],
   "properties": {
     "recordSchemaRef": {
@@ -213,6 +215,13 @@
       ]
     },
     "sectionPhaseCoverageNote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicSectionDiscovery": {
+      "const": "source-observed-public-only"
+    },
+    "publicSectionDiscoveryNote": {
       "type": "string",
       "minLength": 1
     }
