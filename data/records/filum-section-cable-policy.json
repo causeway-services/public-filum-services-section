@@ -1,4 +1,5 @@
 {
+  "recordSchemaRef": "../../schemas/filum-section-cable-policy.schema.json",
   "kind": "filum.public-section-cable-policy/v1",
   "cableName": "filum",
   "domain": "filum.561.group",
