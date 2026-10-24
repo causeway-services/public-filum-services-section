@@ -25,12 +25,14 @@ directory, route and process). The intended current projection is:
 
 For example, the public candidate names in
 [data/records/filum-section-cable-policy.json](data/records/filum-section-cable-policy.json)
-are `predicate-science.filum.561.group`,
-`specification-engineering.filum.561.group`, and
-`group-operations.filum.561.group`. These are **uninstalled reservations, NOT
+are `identifier.filum.561.group` and
+`specification-engineering.filum.561.group`. These are **uninstalled reservations, NOT
 claimed live hostnames, working feeds, or offers.** They correspond to three
-source-observed *public* repository sections. No private repo list is
-published from this Causeway source.
+source-observed *public* repository sections, one Science and one
+Engineering. The dated October 22 census contains no public Coesite
+Operations section, so an Operations pilot is deliberately **not invented**
+from that observation. A newer source-qualified inventory may add one.
+No private repo list is published from this Causeway source.
 
 The same engineering compiler identifies matching Science/Engineering/
 Operations triplets (for example, subject-specific Science research,
