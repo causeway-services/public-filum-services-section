@@ -211,6 +211,10 @@
         "paidData",
         "privacy"
       ]
+    },
+    "sectionPhaseCoverageNote": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }
