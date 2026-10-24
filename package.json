@@ -20,7 +20,7 @@
     "@causeway-services/koios-news": "workspace:*",
     "@lenticule-science/divining": "workspace:*",
     "@red-cup-engineering/computer-web-server": "workspace:*",
-    "@red-cup-engineering/http-services-section": "workspace:*",
+    "@red-cup-engineering/http-engineering-services-section": "workspace:*",
     "@red-cup-engineering/web-theming-service": "workspace:*"
   },
   "sideEffects": false,
