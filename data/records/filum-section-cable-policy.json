@@ -56,5 +56,7 @@
     "paidData": "The public Filum directory describes only independently received published resources; pricing is read live from the original merchant",
     "privacy": "Private sections and observations are not listed without affirmative public-source and editorial authorization."
   },
-  "sectionPhaseCoverageNote": "The original dated census contains zero public Coesite operations sections. Current Coesite public repositories discovered after that snapshot require a new independently admitted source page/census before their public pilot can be projected. Private Operations sections remain private."
+  "sectionPhaseCoverageNote": "The original dated census contains zero public Coesite operations sections. Current Coesite public repositories discovered after that snapshot require a new independently admitted source page/census before their public pilot can be projected. Private Operations sections remain private.",
+  "publicSectionDiscovery": "source-observed-public-only",
+  "publicSectionDiscoveryNote": "Publish only 2026-10-22 publicly visible original source section identities with uninstalled status; never publicize private section names, infer DNS, or turn a directory entry into a commercial offer."
 }
