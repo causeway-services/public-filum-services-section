@@ -26,12 +26,12 @@
   "defaultPaidState": "not-authorized",
   "pilotSections": [
     {
-      "sectionId": 1425773110,
-      "sourceRepository": "lenticule-science/identifier-services-section",
-      "intendedOrigin": "https://identifier.filum.561.group/",
+      "sectionId": 1425792110,
+      "sourceRepository": "lenticule-science/predicate-science-services-section",
+      "intendedOrigin": "https://predicate-science.filum.561.group/",
       "sectionVisibility": "public",
       "planState": "uninstalled",
-      "evidence": "observed in 2026-10-22 source-pinned Group GitHub repository census; science source; no admitted newsroom feed"
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
     },
     {
       "sectionId": 1425320449,
@@ -39,7 +39,15 @@
       "intendedOrigin": "https://specification-engineering.filum.561.group/",
       "sectionVisibility": "public",
       "planState": "uninstalled",
-      "evidence": "observed in 2026-10-22 source-pinned Group GitHub repository census; engineering source; no admitted newsroom feed"
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
+    },
+    {
+      "sectionId": 1425241728,
+      "sourceRepository": "coesite-operations/group-operations-services-section",
+      "intendedOrigin": "https://group-operations.filum.561.group/",
+      "sectionVisibility": "public",
+      "planState": "uninstalled",
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
     }
   ],
   "publicationGrants": [],
@@ -56,7 +64,17 @@
     "paidData": "The public Filum directory describes only independently received published resources; pricing is read live from the original merchant",
     "privacy": "Private sections and observations are not listed without affirmative public-source and editorial authorization."
   },
-  "sectionPhaseCoverageNote": "The original dated census contains zero public Coesite operations sections. Current Coesite public repositories discovered after that snapshot require a new independently admitted source page/census before their public pilot can be projected. Private Operations sections remain private.",
+  "sectionPhaseCoverageNote": "A refreshed complete GitHub App reading on October 24 receives all five original section-owner installations: 64 Science, 337 Engineering, 34 Operations, 126 Public, 36 Group sections. Three selected examples are source-observed public but remain uninstalled and unsold; no private names are published.",
   "publicSectionDiscovery": "source-observed-public-only",
-  "publicSectionDiscoveryNote": "Publish only 2026-10-22 publicly visible original source section identities with uninstalled status; never publicize private section names, infer DNS, or turn a directory entry into a commercial offer."
+  "publicSectionDiscoveryNote": "Publish only 2026-10-22 publicly visible original source section identities with uninstalled status; never publicize private section names, infer DNS, or turn a directory entry into a commercial offer.",
+  "currentSectionSource": {
+    "observedOn": "2026-10-24",
+    "repository": "red-cup-engineering/newswire-engineering-services-section",
+    "sourceReceipt": "data/records/filum/current-section-census-receipt-2026-10-24.json",
+    "originalGitHubInstallations": 5,
+    "originalRepositoriesReceived": 1409,
+    "candidateSectionsReceived": 597,
+    "publiclyVisibleCandidateSections": 240,
+    "sourceGrade": "complete GitHub App installed repository page receiving at observation, not a future-publication or identity grant"
+  }
 }
