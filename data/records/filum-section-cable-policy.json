@@ -1,0 +1,80 @@
+{
+  "recordSchemaRef": "../../schemas/filum-section-cable-policy.schema.json",
+  "kind": "filum.public-section-cable-policy/v1",
+  "cableName": "filum",
+  "domain": "filum.561.group",
+  "routing": "subdomain",
+  "observedAt": "2026-10-24",
+  "originalSectionSource": {
+    "repository": "561-group/561-group-services-section",
+    "manifest": "data/records/github-whatever-service-records/manifest.json",
+    "censusSnapshotDate": "2026-10-22",
+    "expectedRecordCount": 1356,
+    "classification": "original time-bounded GitHub installation census; never publishing rights or DNS proof"
+  },
+  "originalSourceBoundaries": {
+    "sourceEdition": "@red-cup-engineering/communicating/messaging/newswire/source-arrival",
+    "originalNewsroom": "@emsenn/newsroom",
+    "canonicalWireServer": "@emsenn/newswire",
+    "topology": "@emsenn/news-topology/cable",
+    "publicWireCompiler": "red-cup-engineering/newswire-engineering-services-section/src/section-filum.mjs",
+    "paidReadSeller": "red-cup-engineering/paid-data-endpoint-service",
+    "externalCommercialDistribution": "original 561 Market/Shop/Bazaar and consenting external x402 directories"
+  },
+  "publicationRule": "A section has a reserved candidate host only. No source, publication, DNS, TLS, price, license or payment authority follows from a repository name or its public visibility.",
+  "defaultFeedState": "not-installed",
+  "defaultPaidState": "not-authorized",
+  "pilotSections": [
+    {
+      "sectionId": 1425792110,
+      "sourceRepository": "lenticule-science/predicate-science-services-section",
+      "intendedOrigin": "https://predicate-science.filum.561.group/",
+      "sectionVisibility": "public",
+      "planState": "uninstalled",
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
+    },
+    {
+      "sectionId": 1425320449,
+      "sourceRepository": "red-cup-engineering/specification-engineering-services-section",
+      "intendedOrigin": "https://specification-engineering.filum.561.group/",
+      "sectionVisibility": "public",
+      "planState": "uninstalled",
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
+    },
+    {
+      "sectionId": 1425241728,
+      "sourceRepository": "coesite-operations/group-operations-services-section",
+      "intendedOrigin": "https://group-operations.filum.561.group/",
+      "sectionVisibility": "public",
+      "planState": "uninstalled",
+      "evidence": "current 2026-10-24 complete original GitHub App inventory; independent Newsroom and DNS still unreceived"
+    }
+  ],
+  "publicationGrants": [],
+  "saleGrants": [],
+  "noAutomaticPublicationOfPrivateSource": true,
+  "publicReleaseRequires": [
+    "original witnessed source edition and provenance",
+    "independent original Newsroom acceptance",
+    "source rights and community data authority",
+    "public receiver DNS/TLS/current uptime",
+    "original seller exact x402 payment and delivery receiving"
+  ],
+  "humanAndAgentDisclosures": {
+    "paidData": "The public Filum directory describes only independently received published resources; pricing is read live from the original merchant",
+    "privacy": "Private sections and observations are not listed without affirmative public-source and editorial authorization."
+  },
+  "sectionPhaseCoverageNote": "A refreshed complete GitHub App reading on October 24 receives all five original section-owner installations: 64 Science, 337 Engineering, 34 Operations, 126 Public, 36 Group sections. Three selected examples are source-observed public but remain uninstalled and unsold; no private names are published.",
+  "publicSectionDiscovery": "source-observed-public-only",
+  "publicSectionDiscoveryNote": "Publish only 2026-10-22 publicly visible original source section identities with uninstalled status; never publicize private section names, infer DNS, or turn a directory entry into a commercial offer.",
+  "currentSectionSource": {
+    "observedOn": "2026-10-24",
+    "repository": "red-cup-engineering/newswire-engineering-services-section",
+    "sourceReceipt": "data/records/filum/current-section-census-receipt-2026-10-24.json",
+    "originalGitHubInstallations": 5,
+    "originalRepositoriesReceived": 1409,
+    "candidateSectionsReceived": 597,
+    "publiclyVisibleCandidateSections": 240,
+    "sourceGrade": "complete GitHub App installed repository page receiving at observation, not a future-publication or identity grant"
+  }
+}

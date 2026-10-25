@@ -1,0 +1,276 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:561:filum:public-section-cable-policy:v1",
+  "title": "Public Filum section cable publication policy",
+  "description": "Source-owned Causeway data. One section candidate is not an installed DNS/feed or a priced merchant offer. Release references need independent actual rights and Newsroom receiving.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordSchemaRef",
+    "kind",
+    "cableName",
+    "domain",
+    "routing",
+    "observedAt",
+    "originalSectionSource",
+    "originalSourceBoundaries",
+    "publicationRule",
+    "defaultFeedState",
+    "defaultPaidState",
+    "pilotSections",
+    "publicationGrants",
+    "saleGrants",
+    "noAutomaticPublicationOfPrivateSource",
+    "publicReleaseRequires",
+    "humanAndAgentDisclosures",
+    "publicSectionDiscovery",
+    "publicSectionDiscoveryNote",
+    "currentSectionSource"
+  ],
+  "properties": {
+    "recordSchemaRef": {
+      "const": "../../schemas/filum-section-cable-policy.schema.json"
+    },
+    "kind": {
+      "const": "filum.public-section-cable-policy/v1"
+    },
+    "cableName": {
+      "const": "filum"
+    },
+    "domain": {
+      "type": "string",
+      "const": "filum.561.group"
+    },
+    "routing": {
+      "const": "subdomain"
+    },
+    "observedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "originalSectionSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository",
+        "manifest",
+        "censusSnapshotDate",
+        "expectedRecordCount",
+        "classification"
+      ],
+      "properties": {
+        "repository": {
+          "const": "561-group/561-group-services-section"
+        },
+        "manifest": {
+          "const": "data/records/github-whatever-service-records/manifest.json"
+        },
+        "censusSnapshotDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "expectedRecordCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "classification": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "originalSourceBoundaries": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minProperties": 5
+    },
+    "publicationRule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "defaultFeedState": {
+      "const": "not-installed"
+    },
+    "defaultPaidState": {
+      "const": "not-authorized"
+    },
+    "pilotSections": {
+      "type": "array",
+      "maxItems": 50,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sectionId",
+          "sourceRepository",
+          "intendedOrigin",
+          "sectionVisibility",
+          "planState",
+          "evidence"
+        ],
+        "properties": {
+          "sectionId": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sourceRepository": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"
+          },
+          "intendedOrigin": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "sectionVisibility": {
+            "const": "public"
+          },
+          "planState": {
+            "const": "uninstalled"
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "publicationGrants": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sectionId",
+          "state",
+          "editorialReceiptNi",
+          "rightsReceiptNi",
+          "sectionOrigin",
+          "upstreamClaimSetsUrl"
+        ],
+        "properties": {
+          "sectionId": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "state": {
+            "const": "released"
+          },
+          "editorialReceiptNi": {
+            "type": "string",
+            "pattern": "^ni:///sha-256;[A-Za-z0-9_-]{43}$"
+          },
+          "rightsReceiptNi": {
+            "type": "string",
+            "pattern": "^ni:///sha-256;[A-Za-z0-9_-]{43}$"
+          },
+          "sectionOrigin": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "upstreamClaimSetsUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "privateSourceDisclosureReceiptNi": {
+            "type": "string",
+            "pattern": "^ni:///sha-256;[A-Za-z0-9_-]{43}$"
+          },
+          "publicSourceDisclosure": {
+            "const": true
+          }
+        }
+      }
+    },
+    "saleGrants": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No merchant price or sale authority belongs in Causeway Filum public policy."
+    },
+    "noAutomaticPublicationOfPrivateSource": {
+      "const": true
+    },
+    "publicReleaseRequires": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "humanAndAgentDisclosures": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "paidData",
+        "privacy"
+      ]
+    },
+    "sectionPhaseCoverageNote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicSectionDiscovery": {
+      "const": "source-observed-public-only"
+    },
+    "publicSectionDiscoveryNote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "currentSectionSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observedOn",
+        "repository",
+        "sourceReceipt",
+        "originalGitHubInstallations",
+        "originalRepositoriesReceived",
+        "candidateSectionsReceived",
+        "publiclyVisibleCandidateSections",
+        "sourceGrade"
+      ],
+      "properties": {
+        "observedOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "repository": {
+          "const": "red-cup-engineering/newswire-engineering-services-section"
+        },
+        "sourceReceipt": {
+          "const": "data/records/filum/current-section-census-receipt-2026-10-24.json"
+        },
+        "originalGitHubInstallations": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "originalRepositoriesReceived": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "candidateSectionsReceived": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "publiclyVisibleCandidateSections": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sourceGrade": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
