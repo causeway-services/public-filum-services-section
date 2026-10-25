@@ -25,14 +25,15 @@ directory, route and process). The intended current projection is:
 
 For example, the public candidate names in
 [data/records/filum-section-cable-policy.json](data/records/filum-section-cable-policy.json)
-are `identifier.filum.561.group` and
-`specification-engineering.filum.561.group`. These are **uninstalled reservations, NOT
-claimed live hostnames, working feeds, or offers.** They correspond to three
-source-observed *public* repository sections, one Science and one
-Engineering. The dated October 22 census contains no public Coesite
-Operations section, so an Operations pilot is deliberately **not invented**
-from that observation. A newer source-qualified inventory may add one.
-No private repo list is published from this Causeway source.
+are `predicate-science.filum.561.group`,
+`specification-engineering.filum.561.group` and
+`group-operations.filum.561.group`. These are **uninstalled reservations,
+NOT live hosts, working feeds or offers**. The complete October 24
+GitHub App repository observation identifies these three public-source
+Science, Engineering and Operations sections separately. It adds later
+observations to the earlier pinned October 22 source without rewriting
+the original historical record. No private repository names are released
+by this Causeway public policy.
 
 The same engineering compiler identifies matching Science/Engineering/
 Operations triplets (for example, subject-specific Science research,
@@ -50,8 +51,12 @@ terms**. Executable code lives in the existing
 [Red Cup Newswire Engineering Section](https://github.com/red-cup-engineering/newswire-engineering-services-section),
 not here. Its `src/section-filum.mjs` admits the Group's original
 Git-blob-verified [dated GitHub repository census](https://github.com/561-group/561-group-services-section/blob/main/data/records/github-whatever-service-records/manifest.json)
-and derives a potential wire for each conformant section. Its
-`src/section-filum-host.mjs` composes **the existing NewswireService** under
+and its independently received current **October 24 five-installation
+source**, deriving a potential wire for each canonical section. The older
+source records 441 candidate sections; the newer complete source has **597
+actual candidate sections (240 public-source), three complete subject
+triads and no hostname collisions**. Neither source confers a public
+publication right. Its `src/section-filum-host.mjs` composes **the existing NewswireService** under
 section-specific Host names; it does not invent another RSS serializer,
 Newsroom, payment actor, or HTTP listener. The original Web Server must
 install the trusted-host dispatcher and independently receive DNS/TLS routes.
