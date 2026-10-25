@@ -24,7 +24,8 @@
     "publicReleaseRequires",
     "humanAndAgentDisclosures",
     "publicSectionDiscovery",
-    "publicSectionDiscoveryNote"
+    "publicSectionDiscoveryNote",
+    "currentSectionSource"
   ],
   "properties": {
     "recordSchemaRef": {
@@ -224,6 +225,52 @@
     "publicSectionDiscoveryNote": {
       "type": "string",
       "minLength": 1
+    },
+    "currentSectionSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observedOn",
+        "repository",
+        "sourceReceipt",
+        "originalGitHubInstallations",
+        "originalRepositoriesReceived",
+        "candidateSectionsReceived",
+        "publiclyVisibleCandidateSections",
+        "sourceGrade"
+      ],
+      "properties": {
+        "observedOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "repository": {
+          "const": "red-cup-engineering/newswire-engineering-services-section"
+        },
+        "sourceReceipt": {
+          "const": "data/records/filum/current-section-census-receipt-2026-10-24.json"
+        },
+        "originalGitHubInstallations": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "originalRepositoriesReceived": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "candidateSectionsReceived": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "publiclyVisibleCandidateSections": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sourceGrade": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }
