@@ -20,3 +20,4 @@ Member wires and where each site now lives (under the public-news-media-services
 ## Earlier work
 
 The June 2026 hub package, seeded from 561-group/bare-cedar-fog sites/filum.561.group (last held before 7e44648, 2026-06-13), is at lib/legacy/2026-06-13-filum.561.group/.
+- `lib/legacy/2026-06-13-8840450/` and `lib/legacy/2026-06-14-6397830/`: the collapse wires (climate, finance, politics, tech) as `*.newscable.561.group` and `*.filum.561.group` package manifests from 561-group/bare-cedar-fog `sites/`, kept as received; they await news media sections of their own.

@@ -1,0 +1,37 @@
+{
+  "name": "@561-group/collapse-politics.filum.561.group",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "collapse-politics.filum.561.group \u2014 the collapse-politics newswire: political breakdown coverage as claim-state bundles.",
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "ingest": "node ../../services/newscable/src/cli.ts ingest --wire package.json",
+    "test": "echo 'no tests for an RSS-backed wire'",
+    "verify": "echo 'data-only package: no verify'"
+  },
+  "561:newswire": {
+    "title": "Collapse: Politics",
+    "description": "Political breakdown coverage \u2014 climate migration, disaster response cuts, resource nationalism, state capacity failure \u2014 as provenanced claim-state bundles.",
+    "keyword": "political collapse",
+    "sources": [
+      {
+        "adapter": "rss",
+        "url": "https://www.theguardian.com/world/rss",
+        "max": 12
+      },
+      {
+        "adapter": "rss",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "max": 12
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "sideEffects": false
+}
