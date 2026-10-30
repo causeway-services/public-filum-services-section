@@ -1,0 +1,88 @@
+{
+  "name": "@red-cup-engineering/filum.561.group",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "filum.561.group — THE newscable's sheath: one process serving every discovered member wire (sites/*.filum.561.group with a \"561:newswire\" block) under one domain, routed by subdomain.",
+  "exports": {
+    ".": "./package.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "serve": "pnpm --filter @561-group/newscable run serve -- --config ../../sites/filum.561.group/package.json",
+    "test": "node --test \"src/**/*.test.ts\"",
+    "check": "tsc --noEmit",
+    "verify": "pnpm run check && pnpm run test"
+  },
+  "561:newscable": {
+    "title": "filum.561.group",
+    "description": "The 561 group's newswires, bundled: every wire the group cuts, one sheath — claim-state bundles first, prose projections second.",
+    "port": 18804,
+    "domain": "filum.561.group",
+    "routing": "subdomain"
+  },
+  "561:sites": [
+    {
+      "domain": "filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    },
+    {
+      "domain": "astrologia.filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    },
+    {
+      "domain": "cartomantia.filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    },
+    {
+      "domain": "arithmomantia.filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    },
+    {
+      "domain": "lectio.filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    },
+    {
+      "domain": "rete-agentium.filum.561.group",
+      "serviceName": "filum-newscable",
+      "kind": "proxy",
+      "port": 18804,
+      "script": "serve",
+      "sse": false,
+      "ws": false
+    }
+  ],
+  "dependencies": {
+    "@561-group/newscable": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "sideEffects": false
+}
